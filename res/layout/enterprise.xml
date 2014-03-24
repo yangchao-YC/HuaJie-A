@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/mainbg">
+    <!-- 审核页面人物 -->
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/headerbg">
+        <Button 
+            android:id="@+id/Enterprise_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/back"
+            android:background="@drawable/project_back" />
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+        android:text="@string/main_enterprise"
+        android:textColor="#FFFFFF"
+        android:textSize="20dip" />
+         
+    </RelativeLayout>	
+   	<GridView 
+   	    android:id="@+id/Enterprise_GridView"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="fill_parent"
+   	    android:numColumns="auto_fit"
+   	    android:verticalSpacing="5dip"
+   	    android:horizontalSpacing="10dip"
+   	    android:columnWidth="80dip"
+   	    android:stretchMode="columnWidth"
+   	    android:gravity="center"
+   	    >
+   	    
+   	</GridView> 
+</LinearLayout>

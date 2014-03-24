@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainbg"
+    android:orientation="vertical" >
+
+    <!-- 审核页面 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/headerbg" >
+
+        <Button
+            android:id="@+id/AuditEND_Button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/project_back"
+            android:text="@string/back" />
+
+        <TextView
+            android:id="@+id/AuditEND_TextView_TabBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/audit_End_Title"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip" />
+
+        <Button
+            android:id="@+id/AuditEND_Button_End"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/project_back"
+            android:text="@string/Determine" />
+    </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/AuditEND_Text_auditName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="@string/oficial_Details_Symbol_"
+                android:textColor="@color/white"
+                android:textSize="20dip" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:src="@drawable/auditimage" />
+        </LinearLayout>
+		
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="选择下一步处理流程："/>
+		    <RadioGroup
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:orientation="horizontal"
+		         >
+		        
+		            <RadioButton 
+		                android:id="@+id/Audit_End_Radio_ONE"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:gravity="center"
+		                android:visibility="invisible"
+		                android:layout_marginLeft="10dp"
+		                android:text="吃馒头"/>
+		            <RadioButton 
+		                android:id="@+id/Audit_End_Radio_TWO"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="70dp"
+		                android:gravity="center"
+		                android:visibility="invisible"
+		                android:text="吃馒头"/>
+		       </RadioGroup>
+		      <RadioGroup
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:layout_marginBottom="10dp"
+		        android:orientation="horizontal"
+		         >    
+		            <RadioButton 
+		                android:id="@+id/Audit_End_Radio_Three"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:gravity="center"
+		                android:visibility="invisible"
+		                 android:layout_marginLeft="10dp"
+		                 android:text="吃馒头"/>
+		            <RadioButton 
+		                android:id="@+id/Audit_End_Radio_Four"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:gravity="center"
+		                android:layout_marginLeft="70dp"
+		                android:visibility="invisible"
+		                android:text="吃馒头"/>   
+		    </RadioGroup>
+		<ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dip"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/auditimage" />
+		
+		<TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="选择下一步流程处理人："/>
+        <GridView 
+   	    android:id="@+id/AuditEND_GridView"
+   	    android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="2"
+	    android:verticalSpacing="5dp"
+	    android:horizontalSpacing="5dp"
+	    android:stretchMode="columnWidth"
+   	    >
+   	</GridView> 
+</LinearLayout>

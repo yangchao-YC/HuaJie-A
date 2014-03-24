@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="evebit.com.app.huajieoa.views"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="evebit.com.app.huajieoa.views.LauncherActivity"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTitle" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--  android:configChanges="orientation|keyboardHidden|navigation"  -->
+        <activity
+            android:name="evebit.com.app.huajieoa.views.LoginActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+        
+        <activity
+            android:name="evebit.com.app.huajieoa.views.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/main" 
+            android:theme="@style/CustomTitle" >
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.EnterpriseActivity"
+            android:label="@string/main_enterprise" 
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.FinancialActivity"
+            android:label="@string/main_financial" 
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.ProjectActivity"
+            android:label="@string/main_project" 
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.SystemActivity"
+            android:label="@string/main_system" 
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+        <!-- android:windowSoftInputMode="adjustPan"使键盘不影响布局 -->
+        <activity
+            android:name="evebit.com.app.huajieoa.views.OficialManagementActivity"
+            android:label="@string/oficial_Management"
+            android:theme="@style/CustomTitle" 
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.OficialManagementDetailsActivity"
+            android:label="@string/oficial_Management_Details" 
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.HistoryDetailsActivity"
+            android:label="@string/oficial_Management_Details" 
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.MessagePushDetailsActivity"
+            android:label="@string/oficial_Management_Details" 
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.ManagementDetailsActivity"
+            android:label="@string/oficial_Management_Details" 
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.AuditActivity"
+            android:label="@string/audit" 
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.AuditEndActivity"
+            android:label="@string/audit_End" 
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.UpdateActivity"
+            android:label="@string/audit_End" 
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.FinanciaBorrowActivity"
+            android:label="@string/financia_Borrow"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" 
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+         <activity
+            android:name="evebit.com.app.huajieoa.views.HistoryBorrowActivity"
+            android:label="@string/financia_Borrow"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" 
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.HistoryBorrowTestActivity"
+            android:label="@string/financia_Borrow"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" 
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.MoneyDetailsActivity"
+            android:label="@string/money_Details"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+        <activity
+            android:name="evebit.com.app.huajieoa.views.MoneyAuditActivity"
+            android:label="@string/money_Audit"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+         <activity
+            android:name="evebit.com.app.huajieoa.views.AboutActivity"
+            android:label="@string/system_About"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+         <activity
+            android:name="evebit.com.app.huajieoa.views.SearchBorrowActivity"
+            android:label="@string/system_Search"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+         <activity
+            android:name="evebit.com.app.huajieoa.views.DownloadBorrowActivity"
+            android:label="@string/system_Search"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTitle" >
+        </activity>
+         
+         
+         <service android:name=".MyService" android:exported="true"></service>
+    </application>
+<uses-permission android:name="android.permission.VIBRATE" />
+</manifest>

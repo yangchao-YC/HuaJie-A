@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainbg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- 搜索 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/headerbg" >
+
+        <Button
+            android:id="@+id/Search_Button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/project_back"
+            android:text="@string/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip" />
+<!--  
+        <Button
+            android:id="@+id/Search_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/project_back"
+            android:text="@string/search" 
+            android:visibility="invisible"/>-->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:id="@+id/Search_top_linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/oficial_search_bg"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/Search_left_linearLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dip"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/Search_search_EditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="34dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_toLeftOf="@+id/Search_imageButton_search"
+                    android:layout_toRightOf="@+id/Search_left_linearLayout"
+                    android:background="@drawable/oficial_editbg"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/Search_imageButton_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="4dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="4dip"
+                    android:src="@drawable/search_image" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- android:cacheColorHint="#00000000"  去掉滑动时黑色背景效果 -->
+
+        <ListView
+            android:id="@+id/Search_ListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/Search_top_linearLayout"
+            android:background="@null"
+            android:cacheColorHint="#00000000" >
+        </ListView>
+
+       
+    </RelativeLayout>
+
+</LinearLayout>

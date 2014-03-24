@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Determine">确定</string>
+	<string name="cancel">取消</string>
+	<string name="Warning">警告</string>
+    <string name="app_name">华杰中南OA手机版</string>
+    <string name="launcher">启动</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="back">返回</string>
+    <string name="qs">提问</string>
+    <string name="Prompt">提示</string>
+    <string name="reply">回复</string>
+    <string name="search">搜索</string>
+    <string name="agree">同意</string> 
+    <string name="Refuse">拒绝</string>
+    <string name="searchhint">请输入搜索信息</string>
+    <string name="send">发送</string>
+    <string name="loading">加载中</string>
+    <string name="aboutus">关于我们</string>
+    <string name="user_name">用户名:</string>
+    <string name="pass_word">密码:</string>
+    <string name="remember_pass_Word">记住密码</string>
+    <string name="login">登录</string>
+    <string name="login_OK">登录成功</string>
+    <string name="login_intent">正在登录，请稍等</string>
+    <string name="get_date">正在获取数据</string>
+    <string name="login_fail">用户名或密码错误</string>
+    <string name="audit">审核</string>
+    <string name="next">下一步</string>
+    <string name="deviant">服务器数据异常</string>
+    <string name="Select">请选择</string>
+    <string name="audit_Approval">合同审批</string>
+    <string name="audit_Instructions">领导批示</string>
+    <string name="audit_Withdraw">撤回</string>
+    <string name="audit_End">结束</string>
+    <string name="audit_End_Title">收文处理</string>
+   	<string name="audit_End_TextEnd">文件处理完毕</string>
+    <string name="audit_Opinion">拟办意见：</string>
+    <string name="audit_Dialog_Title">您没有选择任何一项或选择多项，请选择一项或者返回</string>
+    <string name="system_Search">搜索页面</string>
+    <string name="history">待办事务</string>
+    
+    <string name="auto_login">自动登录</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    
+    <string name="main_enterprise">企事管理</string>
+    
+    <string name="main_financial">财务管理</string>
+    <string name="financia_Borrow">借还款</string>
+    <string name="financia_Pin">报销</string>
+    
+    <string name="main_project">项目管理</string>
+    <string name="project_Overview">项目总览</string>
+    <string name="project_Audit">项目审核</string>
+    <string name="project_Remind">提醒设置</string>
+    
+    <string name="main_system">系统设置</string>
+    
+    <string name="money_Ordinary">普通</string>
+    <string name="money_Project">项目</string>
+    <string name="money_Audit">金钱审批</string>
+    
+     <string name="money_Handle">处理</string>
+    <string name="money_Borrow_People">借款人</string> 
+    <string name="money_Recipients">领用类型</string>
+    <string name="money_Borrow_Sum">借款金额</string>
+    <string name="money_Confirm_Sum">确认金额</string>
+    <string name="money_Use">用途或原因</string>
+    <string name="money_Proof">证明</string>
+    <string name="money_Approved">核准人</string>
+    <string name="money_Borrow_Time">借款日期</string>
+    <string name="money_Also_Sum">还款金额</string>
+    <string name="money_Also_Time">还款时间</string>
+    <string name="money_Details">借款详细</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main">主界面</string>
+    <string name="oficial_Management">公文管理</string>
+    <string name="oficial_Management_Details">公文管理详细信息</string>
+    <string name="vehicle_Management">车辆管理</string>
+    <string name="articles_Management">用品管理</string>
+    <string name="seal_Management">印章管理</string>
+    <string name="logistics_Management">后勤管理</string>
+    <string name="oficial_Prompt">请输入需查找的编号</string>
+    
+    <string name="main_name">mainName</string>
+    
+    <string name="oficial_text_bottom_letf">在执行的项目数量 ：</string>
+    <string name="oficial_text_bottom_rigth">项目总数量 ：</string>
+    
+    <string name="oficial_Contract">合同执行进度</string>
+    <string name="oficial_Author">项目经理:</string>
+    <string name="oficial_Details_Symbol">文号</string>
+    <string name="oficial_Details_Create_Time">创建日期</string>
+    <string name="oficial_Details_Create_Name">创建人</string>
+    <string name="oficial_Details_Income_Time">收文时间</string>
+    <string name="oficial_Details_Unit">来文单位</string>
+    <string name="oficial_Details_File_Name">文件名</string>
+    <string name="oficial_Details_Theme">主题词</string>
+    <string name="oficial_Details_PageNumber">页码</string>
+    <string name="oficial_Details_Summary">摘要</string>
+    
+  	<string name="oficial_Manage_hetong">合同管理</string>
+    <string name="oficial_Manage_toubiao">我的投标信息</string>
+    <string name="oficial_Details_Symbol_">华杰[2013]0086号</string>
+    <string name="oficial_Details_Create_Time_">2013-01-12</string>
+    <string name="oficial_Details_Create_Name_">彭耀军</string>
+    <string name="oficial_Details_Income_Time_">2013年01月12日</string>
+    <string name="oficial_Details_Unit_">华杰工程咨询有限公司</string>
+    <string name="oficial_Details_File_Name_">银川至北海高速公路建始</string>
+    <string name="oficial_Details_Theme_">高速;公路</string>
+    <string name="oficial_Details_PageNumber_">80</string>
+    <string name="oficial_Details_Summary_">根据湖北省财政厅政府采购管理处鄂财采计（2013）111号计划下达函要求，受采购人湖北省交通运输厅随岳高速公路管理处（以下称“采购人”）的委托，招标代理华杰工程咨询有限公司（以下称“招标代理”）现对随岳高速公路仅曰长江大桥养护 项目施工进行竞争性谈判采购，诚邀满足资格的供应商参加</string>
+	<string name="system_News">消息推送</string>
+	<string name="system_Time">推送时间</string>
+	<string name="system_Sound">声音提醒</string>
+	<string name="system_Shock">震动提醒</string>
+	<string name="system_user">切换用户</string>
+	<string name="system_About">关于</string>
+	
+	<string name="Prompt_Content">无数据</string>
+	<string name="update_title">发现新版本</string>
+	<string name="update_ceshi">1：界面完善：2改善BUG！！！此为测试 ，下载的是QQ</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+ 
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/oficial_image_left"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/oficial_blue" 
+            android:layout_marginLeft="15dip"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@+id/oficial_line"
+            android:layout_toRightOf="@+id/oficial_image_left"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/oficial_text_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="adsadsadasd"
+                android:textColor="@color/white"
+                android:textSize="15dip" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_marginTop="5dip">
+
+                <TextView
+                    android:id="@+id/oficial_text_Author"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/oficial_Author"
+                    android:textColor="@color/white"
+                    android:textSize="11dip" />
+
+                <TextView
+                    android:id="@+id/oficial_text_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/oficial_text_Author"
+                    android:text="adsaasd"
+                    android:textColor="@color/white"
+                    android:textSize="11dip"  />
+
+                
+            </RelativeLayout>
+            
+            <TextView
+                    android:id="@+id/oficial_text_Date"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/oficial_text_Name"
+                    android:text="日期"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="5dip"
+                    android:lines="1"
+                    android:textSize="11dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/oficial_line"
+            android:layout_width="2dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@+id/oficial_image_right"
+            android:src="@drawable/oficial_line" />
+
+        <ImageView
+            android:id="@+id/oficial_image_right"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/oficial_right" 
+            android:layout_marginRight="15dip"/>
+    </RelativeLayout>
+
+</LinearLayout>

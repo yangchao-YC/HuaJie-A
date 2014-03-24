@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainbg"
+    android:orientation="vertical" >
+
+    <!-- 审核页面 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/headerbg" >
+
+        <Button
+            android:id="@+id/Audit_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/project_back"
+            android:text="@string/back" />
+
+        <TextView
+            android:id="@+id/Audit_TextView_TabBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/audit_Approval"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip" />
+
+        <Button
+            android:id="@+id/Audit_Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/project_back"
+            android:text="@string/next" 
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dip"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Audit_Text_auditName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="@string/oficial_Details_Symbol_"
+                android:textColor="@color/white"
+                android:textSize="20dip" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:src="@drawable/auditimage" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dip"
+                android:orientation="vertical" >
+                
+				<RelativeLayout 
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:visibility="gone">
+				    <CheckBox
+                    android:id="@+id/Audit_ChekBox_One_One"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/audit_Instructions" />
+					<CheckBox
+                    android:id="@+id/Audit_ChekBox_One_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/audit_Withdraw" />
+                
+				</RelativeLayout>
+                <RelativeLayout 
+                    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:visibility="gone"
+				    >
+                    <CheckBox
+                    android:id="@+id/Audit_ChekBox_Withdraw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/audit_Withdraw" />
+                <CheckBox
+                    android:id="@+id/Audit_ChekBox_Two_Two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/audit_End" />
+                </RelativeLayout>
+				
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dip"
+                    android:text="@string/audit_Opinion"
+                    android:textColor="@color/white"
+                    android:textSize="18dip" />
+
+                <EditText
+                    android:id="@+id/Audit_EditText_Opinion"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dip"
+                    android:layout_margin="5dip"
+                    android:gravity="top" />
+                
+                
+                <RelativeLayout 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <Button 
+                        android:id="@+id/Audit_Button_OK"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_margin="20dp"
+                        android:text="同   意"/>
+                    <Button 
+                        android:id="@+id/Audit_Button_NO"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="20dp"
+                        android:text="不同意"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
